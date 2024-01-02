@@ -1,13 +1,38 @@
-.mainHeader {
-    overflow: hidden;
+body {
     margin: 0px;
-    height: 200px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.mainHeaderLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px 10px 10px 0px;
+}
+
+.mainHeaderNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 10px 10px 0px;
+}
+
+.mainHeader {
+    padding: 10px 25px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 500px;
     width: 100%;
-    background-color: #1fde55;
+    background-color: #21422a;
+    color:#f1fff5;   
 }
 
 .mainBody {
-    height: 100px;
+    display: flex;
+    height: 500px;
     width: 100%;
     margin: 0px;
     background-color: #c7ffd7;
@@ -17,8 +42,9 @@
     display: flex;
     align-self: flex-end;
     justify-content: center;
-    height: 50px;
+    height: 100%;
     width: 100%;
     margin: 0px;
-    background-color: blue;
+    background-color: #21422a;
+    color:#f1fff5;   
 }
