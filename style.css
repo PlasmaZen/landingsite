@@ -1,6 +1,9 @@
 body {
+    width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -10,13 +13,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     padding: 0px 10px 10px 0px;
-}
-
-.mainHeaderNavbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 0px 10px 10px 0px;
+    margin: 10px 50px 10px 0px;
 }
 
 .mainHeader {
@@ -30,12 +27,38 @@ body {
     color:#f1fff5;   
 }
 
+.mainHeaderMiddle {
+    padding: 10px 25px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainHeaderMiddleContainer {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.mainHeaderMiddleContainer img {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
 .mainBody {
     display: flex;
     height: 500px;
     width: 100%;
     margin: 0px;
     background-color: #c7ffd7;
+    margin: 0px 0px 0px 0px;
 }
 
 .mainFooter {
@@ -46,5 +69,6 @@ body {
     width: 100%;
     margin: 0px;
     background-color: #21422a;
-    color:#f1fff5;   
+    color:#f1fff5;
+    margin: 0px;
 }
