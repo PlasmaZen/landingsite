@@ -53,12 +53,26 @@ body {
 }
 
 .mainBody {
+    padding: 10px 0px 10px 0px;
     display: flex;
     height: 500px;
     width: 100%;
-    margin: 0px;
     background-color: #c7ffd7;
     margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainBodyContainer {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    justify-content: flex;
+}
+
+.mainBodyContainerInner {
+    flex-direction: row;    
+    border-style: solid;
 }
 
 .mainFooter {
